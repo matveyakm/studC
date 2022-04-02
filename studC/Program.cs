@@ -17,7 +17,7 @@ namespace studB
                     if (isFirst == true)
                     {
                         isFirst = false;
-                        average = R + (R - 2) / 2;
+                        average = (R + (R - 2)) / 2;
                         Console.WriteLine(R);
                     }
                 }
